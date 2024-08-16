@@ -1,0 +1,21 @@
+<div class="blog-list">
+    <div class="features">
+        <h2>Features</h2>
+
+        <ul>
+            <li><a href="Create_New_Blog"><i class="ri-add-line"></i> Create New Blog</a></li>
+        </ul>
+    </div>
+    <div class="recent-blogs">
+        <h2>Recent Blogs</h2>
+
+        <form action="Old_Blog" method="post">
+            <% for(var i = 0; i < blogs.length; i++) { %>
+                <input type="submit" value=<%= blogs[i].replaceAll(' ', '_') %> name='title' class='blog'>
+            <% } %>
+        </form>
+    </div>
+    
+</div>
+
+

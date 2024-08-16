@@ -6,9 +6,32 @@
 }
 
 .blog-list h2 {
-    margin: 1rem 0;
+    margin: 1rem 0 0.5rem 0;
+    font-weight: 500;
 }
 
-.blog-list ul {
-    margin-left: 2rem;
+.features ul {
+    list-style: none;
 }
+
+.features ul li {
+    margin-left: 1rem;
+}
+
+.features ul li a{
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.recent-blogs .blog {
+    background: transparent;
+    margin-bottom: 0.5rem;
+
+    margin-left: 1rem;
+}
+
+.recent-blogs .blog:hover {
+    cursor: pointer;
+    background-color: yellow;
+}
+
