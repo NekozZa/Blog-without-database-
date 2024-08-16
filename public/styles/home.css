@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #758694;
+}
+
+.navbar ul {
+    height: 100vh;
+
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.navbar li {
+    width: 5rem;
+    padding: 1rem;
+
+    color: white;
+    border: 1px solid #F7E7DC;
+}
+
+.navbar li:hover {
+    cursor: pointer;
+}
+

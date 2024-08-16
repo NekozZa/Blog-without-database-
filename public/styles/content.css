@@ -1,0 +1,21 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #FFF8F3;
+}
+
+.content h1 {
+    margin: 1rem 0;
+}
+
+.content p {
+    margin: 1rem 0;
+    width: 32vw;
+}
+
+.content img {
+    width: 32vw;
+    height: auto;
+}

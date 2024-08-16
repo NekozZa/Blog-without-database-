@@ -1,0 +1,14 @@
+.blog-list {
+    background-color: #FFF8F3;
+    
+    border-left: 1px dotted black;
+    padding-left: 1rem;
+}
+
+.blog-list h2 {
+    margin: 1rem 0;
+}
+
+.blog-list ul {
+    margin-left: 2rem;
+}
